@@ -1,0 +1,17 @@
+spring:
+  security:
+    user:
+      name: user
+      password: testpw
+  
+  devtools:
+    restart:
+      # 로깅시 재시작 방지
+      exclude: logs/**
+  
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 5000
